@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <title>MamaPut</title>
+</head>
+<body class="p-0 m-0">
+    <header class="sticky z-50 flex justify-between justify-center items-center p-6 bg-emerald-950 text-white h-[80px] w-full transition-all duration-700 ease-out transform translate-y-0 opacity-0 id-header">
+        <div class="flex items-center">
+            <h1 class="md:text-[50px] font-extrabold text-[35px] font-serif text-yellow-400">MAMAPUT</h1>
+            <img class="hidden md:block mt-4 object-fit w-[100px] h-[70px]" src="./chef-baker-cartoon-cook-giving-600nw-2595108147-removebg-preview (1).png">
+       </div>
+       <nav class="hidden md:flex">
+        <a class="font-bold underline underline-offset-4 decoration-yellow-400 decoration-2 hover:text-yellow-400" href="index.html">Home</a>
+        <a class="ml-4 font-bold hover:text-yellow-400" href="vendor.html">Vendor</a>
+        <a class="ml-4 mr-8 font-bold hover:text-yellow-400" href="explore.html">Explore</a>
+       </nav>
+        <button id="menu-btn" class="flex md:hidden  text-yellow-400 text-xl focus:outline-none cursor-pointer relative z-50">
+    <i id="menu-icon" class="fa-solid fa-bars"></i>
+  </button>
+
+  <div id="mobile-menu" class="hidden md:hidden absolute top-[75px] right-6 w-52 bg-emerald-950 border border-emerald-900 rounded-2xl p-2 shadow-2xl flex flex-col space-y-1 text-sm font-bold text-gray-100 z-50">
+    <a href="index.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-yellow-400 hover:text-emerald-950 transition-all duration-200">
+      Home
+    </a>
+    <a href="vendor.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-yellow-400 hover:text-emerald-950 transition-all duration-200">
+      Vendor Profile
+    </a>
+    <a href="explore.html" class="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-yellow-400 hover:text-emerald-950 transition-all duration-200">
+      Explore Spots
+    </a>
+  </div>
+      </header>
+      <section class="scroll-animate -translate-x-12 opacity-0 transition-all duration-1000 ease-out">
+        <main>
+            <div class="flex flex-col md:flex-row items-center w-full m-h-[500px] gap-4 h-[500px]">
+            <div class="w-full md:w-1/2 h-[500px] h-full md:relative absolute z-0 md:z-auto inset-0 md:inset-auto">
+            <img class="w-[100%] h-full object-cover" src="./photo_2026-05-26_07-50-04.jpg" alt="food">
+            <div class="absolute inset-0 bg-black/60 md:hidden"></div>
+            <div class="absolute inset-0 bg-gradient-to-l from-white via-transparent to-transparent"></div>
+            <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
+            </div>
+            <div class="relative w-full md:w-1/2 h-[500px] text-center md:text-left z-10 md:bg-white px-4 md:px-0 -translate-y-16 md:translate-y-16">
+                <h1 class="font-extrabold text-[55px] leading-tight text-yellow-300 md:text-emerald-950 font-serif mt-16">Discover the Best street food spots around you</h1>
+                <p class="text-emerald-950 font-semibold text-[18px]">Mamaput helps food lovers discover authentic local vendors,hidden buka spots, and the tastiest street food experiences across delta and beyond.</p>
+                <div class="flex items-center mt-6 ml-12 md:ml-0">
+                <input class="w-[300px] h-16 p-4 bg-gray-300 rounded-[25px] cursor-pointer" type="text" placeholder="Explore cravings..">
+                <i class="fa-solid fa-magnifying-glass bg-yellow-400 text-emerald-950 rounded-full w-16 h-16 items-center justify-center flex text-[30px] cursor-pointer"></i>
+                </div>
+            </div>
+            </div>
+        </main>
+      </section>
+      <section class="scroll-animate -translate-x-12 opacity-0 transition-all duration-1000 ease-out">
+        <div class="mb-12 mt-6">
+        <h1 class="text-[45px] font-bold text-emerald-950 ml-6">Featured Food Spots</h1>
+        <p class="text-[20px] font-semibold text-yellow-500 ml-10">Handpicked favorites loved by other food lover's</p>
+        </div>
+        <div class="flex flex-col flex-shrink-0 flex-wrap md:flex-row lg:flex-row gap-8 lg:gap-2 justify-center justify-between justify-around">
+            <article>
+        <div class="p-8  h-[460px] bg-gray-100 rounded-[25px] hover:shadow-2xl hover:scale-105 transition-transform flex-shrink-0 w-[80%] sm:w-[50%] md:w-[400px] lg:w-[310px] ml-[60px] md:ml-[0] scroll-animate -translate-x-12 opacity-0 transition-all duration-700 ease-out delay-0">
+            <div>
+                <img class="w-[350px] h-48 object-cover rounded-[15px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpEro15r0iP0waz04Ofj77Siv9qWa_g0vQzg&s" alt="kiki's kitchen">
+            </div>
+            <div>
+                <h4 class="text-[20px] text-emerald-950 font-bold ">kiki's kichen</h4>
+                <p class="text-[14px] font-semibold text-yellow-500">jollof beef noodles</p>
+               <p class="text-[14px] font-semibold"><i class="em em-star" aria-role="presentation"  aria-label="WHITE MEDIUM STAR"></i>&nbsp;4.9</p>
+               <p class="text-[14px] font-semibold text-emerald-950 mb-16"><i class="em em-stopwatch" aria-role="presentation" aria-label=""></i>15-25mins</p>
+            </div>
+            <div class="lg:ml-5 md:ml-16 ml-16">
+                <a href="#" class="w-[80px] h-[38px] p-4 pr-16 pl-16 bg-emerald-950 text-white rounded-[15px] font-bold hover:bg-yellow-400 hover:text-emerald-950">View Menu</a>
+            </div>
+        </div>
+        </article>
+         <article>
+        <div class="p-8 h-[460px] bg-gray-100 rounded-[25px] hover:shadow-2xl hover:scale-105 transition-transform flex-shrink-0 w-[80%] sm:w-[50%] md:w-[400px] lg:w-[310px] ml-[60px] md:ml-[0] scroll-animate -translate-x-12 opacity-0 transition-all duration-700 ease-out delay-150">
+            <div>
+                <img class="w-[350px] h-48 object-cover rounded-[15px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTliUX6DLEDqvFCly9SEPx8RafJV7d5gGys9Q&s" alt="becky's style">
+            </div>
+            <div>
+                <h4 class="text-[20px] text-emerald-950 font-bold ">becky's style</h4>
+                <p class="text-[14px] font-semibold text-yellow-500">chicken jollof rice</p>
+               <p class="text-[14px] font-semibold"><i class="em em-star" aria-role="presentation"  aria-label="WHITE MEDIUM STAR"></i>&nbsp;5.5</p>
+               <p class="text-[14px] font-semibold text-emerald-950 mb-16"><i class="em em-stopwatch" aria-role="presentation" aria-label=""></i>30-45mins</p>
+            </div>
+            <div class="lg:ml-5 md:ml-16 ml-16">
+                <a href="#" class="w-[80px] h-[38px] p-4 pr-16 pl-16 bg-emerald-950 text-white rounded-[15px] font-bold hover:bg-yellow-400 hover:text-emerald-950">View Menu</a>
+            </div>
+        </div>
+        </article>
+        <article>
+        <div class="p-8 h-[460px] bg-gray-100 rounded-[25px] hover:shadow-2xl hover:scale-105 transition-transform flex-shrink-0 w-[80%] sm:w-[50%] md:w-[400px] lg:w-[310px] ml-[60px] md:ml-[0]  scroll-animate -translate-x-12 opacity-0 transition-all duration-700 ease-out delay-300">
+            <div>
+                <img class="w-[350px] h-48 object-cover rounded-[15px]" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTlEXRjtlhiSOwt1YPWebvWdpWD2AbJ-Ftwg&s" alt="Mama ikechi joint">
+            </div>
+            <div>
+                <h4 class="text-[20px] text-emerald-950 font-bold leading-tight">Mama ikechi joint</h4>
+                <p class="text-[14px] font-semibold text-yellow-500">akara and pap</p>
+               <p class="text-[14px] font-semibold"><i class="em em-star" aria-role="presentation"  aria-label="WHITE MEDIUM STAR"></i>&nbsp;4.5</p>
+               <p class="text-[14px] font-semibold text-emerald-950 mb-16 md:mb-16 lg:mb-16"><i class="em em-stopwatch" aria-role="presentation" aria-label=""></i>10-20mins</p>
+            </div>
+            <div class="lg:ml-5 md:ml-16 ml-16">
+                <a href="#" class="w-[80px] h-[38px] p-4 pr-16 pl-16 bg-emerald-950 text-white rounded-[15px] font-bold hover:bg-yellow-400 hover:text-emerald-950">View Menu</a>
+            </div>
+        </div>
+        </article>
+        <article>
+        <div class="p-8 h-[460px] bg-gray-100 rounded-[25px] hover:shadow-2xl hover:scale-105 transition-transform flex-shrink-0 w-[80%] sm:w-[50%] md:w-[400px] lg:w-[310px] ml-[60px] md:ml-[0] scroll-animate -translate-x-12 opacity-0 transition-all duration-700 ease-out delay-500">
+            <div>
+                <img class="w-[350px] h-48 object-cover rounded-[15px]" src="https://newmarketplaza.com/wp-content/uploads/2023/06/the-suya-spot-african-food-newmarket.jpg" alt="belton suya">
+            </div>
+            <div>
+                <h4 class="text-[20px] text-emerald-950 font-bold leading-tight">Belton Suya</h4>
+                <p class="text-[14px] font-semibold text-yellow-500">chicken suya with vege's</p>
+               <p class="text-[14px] font-semibold"><i class="em em-star" aria-role="presentation"  aria-label="WHITE MEDIUM STAR"></i>&nbsp;5.5</p>
+               <p class="text-[14px] font-semibold text-emerald-950 mb-16"><i class="em em-stopwatch" aria-role="presentation" aria-label=""></i>12-30mins</p>
+            </div>
+            <div class="lg:ml-5 md:ml-16 ml-16">
+                <a href="#" class="w-[80px] h-[38px] p-4 pr-16 pl-16 bg-emerald-950 text-white rounded-[15px] font-bold hover:bg-yellow-400 hover:text-emerald-950">View Menu</a>
+            </div>
+        </div>
+        </article>
+        </div>
+      </section>
+      <section class="bg-stone-50 scroll-animate -translate-x-12 opacity-0 transition-all duration-1000 ease-out">
+        <div class="mt-14">
+        <h1 class="text-[45px] font-bold text-yellow-500 ml-6">How It Works</h1>
+        <p class="text-[20px] font-bold text-emerald-950 ml-10 mb-[130px]">connecting food lover's with nearby local food vendors,Ready to serve you.</p>
+        </div>
+        <div class="flex md:flex-row flex-col h-[1250px] md:h-[600px]">
+            <div class="w-full lg:w-1/2">
+                <div class=" w-[90%] h-[550px] lg:w-[550px] lg:h-[500px] md:w-[450px] p-6 border border-emerald-950 lg:ml-16 ml-8 mb-10 lg:mb-0 rounded-[15px]">
+                <div class="flex justify-center">
+                <h2 class="text-[25px] font-bold text-emerald-950 p-2 w-60 h-38 border-2 border-emerald-950  rounded-full justify-center flex -translate-y-14 bg-white">For food lover's</h2>
+                </div>
+                <div class="hover:scale-105 duration-300 transition-all flex gap-2 -translate-y-10">
+                <div>
+                    <span class="bg-emerald-950 text-yellow-400 text-[20px] rounded-full w-9 h-9 flex items-center justify-center mt-2">1</span>
+                </div>
+                <div>
+                    <h3 class="text-[28px] font-bold text-emerald-950">Explore spots</h3>
+                    <p class="text-[18px] font-bold text-yellow-600 leadind-relaxed">Enter your location to discover the top-rated featured food spots and hidden kitchens in your neighborhood.</p>
+                </div>
+                </div>
+                <div class="hover:scale-105 duration-300 transition-all flex gap-2 -translate-y-8">
+                <div>
+                    <span class="bg-emerald-950 text-yellow-400 text-[20px] rounded-full w-9 h-9 flex items-center justify-center mt-2">2</span>
+                </div>
+                <div>
+                    <h3 class="text-[28px] font-bold text-emerald-950">Order Fresh</h3>
+                    <p class="text-[18px] font-bold text-yellow-600 leadind-relaxed">Pick your favorite dishes from the vendor's menu, customize your flavors, and place your order safely.</p>
+                </div>
+                </div>
+                <div class="hover:scale-105 duration-300 transition-all flex gap-2 -translate-y-6">
+                <div>
+                    <span class="bg-emerald-950 text-yellow-400 text-[20px] rounded-full w-9 h-9 flex items-center justify-center mt-2">3</span>
+                </div>
+                <div>
+                    <h3 class="text-[28px] font-bold text-emerald-950">Eat & Enjoy</h3>
+                    <p class="text-[18px] font-bold text-yellow-600 leadind-relaxed">Sit back while the vendor prepares your food fresh. Get it delivered hot, ready to satisfy your cravings.</p>
+                </div>
+                </div>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2">
+                <div class=" w-[90%] h-[550px] lg:w-[550px] lg:h-[500px] md:w-[450px] p-6 border border-emerald-950 ml-8 rounded-[15px]">
+                <div class="flex justify-center">
+                <h2 class="text-[25px] font-bold text-emerald-950 p-2 w-60 h-38 border-2 border-emerald-950  rounded-full justify-center flex -translate-y-14 bg-white">For Vendor's</h2>
+                </div>
+                <div class="hover:scale-105 duration-300 transition-all flex gap-2 -translate-y-10">
+                <div>
+                    <span class="bg-emerald-950 text-yellow-400 text-[20px] rounded-full w-9 h-9 flex items-center justify-center mt-2">1</span>
+                </div>
+                <div>
+                    <h3 class="text-[28px] font-bold text-emerald-950">Set Up Your Kitchen</h3>
+                    <p class="text-[18px] font-bold text-yellow-600 leadind-relaxed">Register your food business, upload high-quality pictures of your dishes, and set your own operating hours.</p>
+                </div>
+                </div>
+                <div class="hover:scale-105 duration-300 transition-all flex gap-2 -translate-y-8">
+                <div>
+                    <span class="bg-emerald-950 text-yellow-400 text-[20px] rounded-full w-9 h-9 flex items-center justify-center mt-2">2</span>
+                </div>
+                <div>
+                    <h3 class="text-[28px] font-bold text-emerald-950">Receive & Prep Orders</h3>
+                    <p class="text-[18px] font-bold text-yellow-600 leadind-relaxed">Get instant mobile notifications when food lovers order. Accept the requests and prepare the food fresh.</p>
+                </div>
+                </div>
+                <div class="hover:scale-105 duration-300 transition-all flex gap-2 -translate-y-6">
+                <div>
+                    <span class="bg-emerald-950 text-yellow-400 text-[20px] rounded-full w-9 h-9 flex items-center justify-center mt-2">3</span>
+                </div>
+                <div>
+                    <h3 class="text-[28px] font-bold text-emerald-950">Hand Off & Earn</h3>
+                    <p class="text-[18px] font-bold text-yellow-600 leadind-relaxed">Hand the package to a delivery rider or prepare it for pickup. Receive fast, direct weekly payouts to your account.</p>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <div class="scroll-animate translate-y-12 opacity-0 transition-all duration-1000 ease-ou">
+      <footer class="bg-emerald-950 p-6 md:h-[200px] h-[300px] w-full">
+            <div class="flex pb-[46px]">
+            <div class="items-center w-[370px] space-y-2 mr-8">
+            <h1 class="font-extrabold lg:text-[50px] md:text-[35px] text-[27px] font-serif text-yellow-400">MAMAPUT</h1> 
+            <p class="text-white lg:text-[15px] text-[11px] font-normal hover:text-yellow-400 hover:scale-105 origin-left transition-all cursor-pointer">Connecting passionate local food vendors with hungry food lovers in your neighborhood.</p>
+       </div>
+       <div class="w-[350px] mr-4 md:mr-0">
+        <h3 class="lg:text-[28px] md:text-[20px] text-[17px] text-yellow-400 font-bold">For Food Vendors</h3>
+        <ul class="space-y-2 font-normal text-white lg:text-[15px] text-[11px]">
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Become a Vendor</a></li>
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Merchant Dashboard</a></li>
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Kitchen Guidelines</a></li>
+        </ul>
+       </div>
+       <div class="w-[350px]">
+        <h3 class="lg:text-[28px] md:text-[20px] text-[17px] text-yellow-400 font-bold">For Food Lover's</h3>
+        <ul class="space-y-2 font-normal text-white lg:text-[15px] text-[11px]">
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Explore Food Spots</a></li>
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Trending Kitchens</a></li>
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Delivery Near Me</a></li>
+        </ul>
+       </div>
+       <div class="w-[350px]">
+        <h3 class="lg:text-[28px] md:text-[20px] text-[17px] text-yellow-400 font-bold">Support & Legal</h3>
+        <ul class="space-y-2 font-normal text-white lg:text-[15px] text-[11px]">
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Help Center & FAQs</a></li>
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Terms of Service</a></li>
+            <li class="hover:scale-105 origin-left transition-all"><a href="#" class="hover:text-yellow-400 hover:underline transition-all">Privacy Policy</a></li>
+        </ul>
+       </div>
+       </div>
+      </footer>
+       <div class=" bg-yellow-400 text-emerald-950 p-4">
+        <p class="font-semibold justify-center flex">&copy; 2026 Mamaput. All rights reserved.</p>
+        </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+</html>
