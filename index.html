@@ -6,6 +6,21 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          // This maps your tailwind 'font-serif' class straight to Playfair Display!
+          serif: ['"Playfair Display"', 'serif'],
+        }
+      }
+    }
+  }
+</script>
     <title>MamaPut</title>
 </head>
 <body class="p-0 m-0">
@@ -45,8 +60,8 @@
             <div class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent"></div>
             </div>
             <div class="relative w-full md:w-1/2 h-[500px] text-center md:text-left z-10 md:bg-white px-4 md:px-0 -translate-y-16 md:translate-y-16">
-                <h1 class="font-extrabold text-[55px] leading-tight text-yellow-300 md:text-emerald-950 font-serif mt-16">Discover the Best street food spots around you</h1>
-                <p class="text-emerald-950 font-semibold text-[18px]">Mamaput helps food lovers discover authentic local vendors,hidden buka spots, and the tastiest street food experiences across delta and beyond.</p>
+                <h1 class="font-extrabold text-[55px] leading-tight text-yellow-300 md:text-emerald-950 mt-16">Discover the Best street food spots around you</h1>
+                <p class="lg:text-emerald-950 text-emerald-100 font-semibold text-[18px]">Mamaput helps food lovers discover authentic local vendors,hidden buka spots, and the tastiest street food experiences across delta and beyond.</p>
                 <div class="flex items-center mt-6 ml-6 md:ml-0">
                 <input class="w-[300px] h-16 p-4 bg-gray-300 rounded-[25px] cursor-pointer" type="text" placeholder="Explore cravings..">
                 <a href="explore.html"><i class="fa-solid fa-magnifying-glass bg-yellow-400 text-emerald-950 rounded-full w-16 h-16 items-center justify-center flex text-[30px] cursor-pointer"></i></a>
